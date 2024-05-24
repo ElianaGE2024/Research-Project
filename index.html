@@ -1,19 +1,123 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-   <head>
-       <meta charset="utf-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <title></title>
-       <meta name="description" content="">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-       <!-- STYLE SHEETS -->
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-<link rel="stylesheet" href="style.css">
-       <!-- JAVASCRIPT -->
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   </head>
-   <body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pastries</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-   </body>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pastries</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto me-s-auto mb-2 mb-md-0 text-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#video">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map">Map</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO SECTION START -->
+    <div class="hero-section py-5">
+        <main class="container py-5">
+            <div class="p-5 rounded">
+            <h1>Navbar example</h1>
+            <p class="lead">
+                This example is a quick exercise to illustrate how fixed to top
+                navbar works. As you scroll, it will remain fixed to the top of your
+                browser’s viewport.
+            </p>
+            </div>
+        </main>
+    </div>
+    <!-- HERO SECTION END -->
+
+    <!-- ONE COLUMN START -->
+    <div class="container py-5" id="about">
+        <div class="row">
+        <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
+        <p>
+            In this Website you will be able to delight the different pastries I enjoy doing, I also try to make new recipes everyday, so when new costumers come into my bakery shop, they can be the first ones to try the newest in my menu!
+        </p>
+        </div>
+    </div>
+    <!-- ONE COLUMN END -->
+
+      <!-- MAP SECTION START -->
+    <div class="map" id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11846.512248735822!2d-87.81615146044919!3d42.0725911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fc77108c11075%3A0x3020eea00d7e760d!2sMisericordia%20Sweet%20Shoppe!5e0!3m2!1sen!2sus!4v1716564092896!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- MAP SECTION END -->
+
+    
+    <!-- VIDEO SECTION START -->
+    <div class="container py-5 text-center video" id="video">
+        <div class="row py-5">
+            <div class="col pb-5">
+                <h1 class="text-center pb-1 fw-bold pb-5">Update This</h1>
+                <p>explaining the video</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n4Glui1wRXg?si=DWQDZZN9D-QZ7yTZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+      
+
+
+    <!-- BACK TO TOP START -->
+    <a href="#nav">
+        <i class="bi bi-arrow-up-circle-fill to-top text-black"></i>
+    </a>
+    <!-- BACK TO TOP START -->
+
+    <script src="" async defer></script>
+  </body>
 </html>
